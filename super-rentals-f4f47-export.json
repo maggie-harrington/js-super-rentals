@@ -1,0 +1,32 @@
+{
+  "rentals" : {
+    "0" : {
+      "bedrooms" : 15,
+      "city" : "San Francisco",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
+      "owner" : "Veruca Salt",
+      "type" : "Estate"
+    },
+    "1" : {
+      "bedrooms" : 1,
+      "city" : "Seattle",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg",
+      "owner" : "Mike Teavee",
+      "type" : "Condo"
+    },
+    "2" : {
+      "bedrooms" : 3,
+      "city" : "Portland",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg",
+      "owner" : "Violet Beauregarde",
+      "type" : "Apartment"
+    },
+    "-Kfdl9lpIqQ1575ZtcL5" : {
+      "bedrooms" : "3",
+      "city" : "Portland",
+      "image" : "",
+      "owner" : "Maggie",
+      "type" : "Apartment"
+    }
+  }
+}

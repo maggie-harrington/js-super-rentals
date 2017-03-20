@@ -3,7 +3,7 @@ import Ember from 'ember';
 export default Ember.Component.extend({
     addNewAnnouncement: false,
     actions: {
-        rentalFormShow() {
+        announcementFormShow() {
             this.set('addNewAnnouncement', true);
         },
 
@@ -15,7 +15,7 @@ export default Ember.Component.extend({
                 message: this.get('message'),
             };
             this.set('addNewAnnouncement', false);
-            this.sendAction('saveAnnouncement2', params)
+            this.sendAction('saveAnnouncement2', params);
         }
     }
 });

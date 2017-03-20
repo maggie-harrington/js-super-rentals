@@ -1,5 +1,11 @@
 <h2>Super Rentals Announcements</h2>
 
+<ul>
+    {{#each model as |announcement|}}
+        {{announcement-tile announcement=announcement}}
+    {{/each}}
+</ul>
+
 {{#link-to 'index'}}Home{{/link-to}}
 {{#link-to 'about'}}About{{/link-to}}
 {{#link-to 'contact'}}Contact us{{/link-to}}

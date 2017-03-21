@@ -1,20 +1,49 @@
-{ "rentals": [{
+{
+    "rentals": [{
     "owner": "Veruca Salt",
     "city": "San Francisco",
     "type": "Estate",
-    "bedrooms": 15,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
+    "bedrooms": 15
   }, {
     "owner": "Mike Teavee",
     "city": "Seattle",
     "type": "Condo",
-    "bedrooms": 1,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg",
+    "bedrooms": 1
   }, {
     "owner": "Violet Beauregarde",
     "city": "Portland",
     "type": "Apartment",
-    "bedrooms": 3,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
-  }]
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg",
+    "bedrooms": 3
+  }],
+
+  "reviews": [{
+    "author": "Andrea",
+    "rating": 4,
+    "content": "Did not fall down."
+  }, {
+    "author": "Alex",
+    "rating": 9,
+    "content": "Nice view of the volcano!"
+  }],
+
+  "announcements": [{
+          "title": "Spring Sale!",
+          "start": "3-27-17",
+          "end": "4-02-17",
+          "message": "20% off all rentals taking place during the week of 3-27 through 4-2! Book now!"
+      }, {
+          "title": "Flood Warning!",
+          "start": "3-20-17",
+          "end": "3-23-17",
+          "message": "There is a river flood warning in effect until Thursday 3-23 in the Portland area. If you are scheduled for a Portland rental during this time period, and your rental is in an affected area, we will be contacting you with refund/rescheduling options."
+      }, {
+          "title": "We're Hiring!",
+          "start": "3-19-17",
+          "end": "",
+          "message": "Interested in joining our team? We're looking to expand in the Portland area. Current openings for Ember JS developers and customer service reps. Experience in the travel industry is a plus. Please submit resumes to superrentalsrep@superrentals.com"
+      }]
+
 }

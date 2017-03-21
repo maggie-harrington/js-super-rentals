@@ -5,8 +5,8 @@ export default Ember.Route.extend({
         return this.store.findRecord('review', params.review_id);
     },
     actions: {
-        update(reviews,params) {
-            Object.keys(params).forEach(function(key){
+        update(review, params) {
+            Object.keys(params).forEach(function(key) {
                 if(params[key]!==undefined) {
                     review.set(key,params[key]);
                 }

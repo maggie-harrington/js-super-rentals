@@ -1,14 +1,16 @@
-<h2>Super Rentals Announcements</h2>
+<div class="container">
+    <h2>Super Rentals Announcements</h2>
 
-<ul>
-    {{#each model as |announcement|}}
+    <ul>
+        {{#each model as |announcement|}}
         {{announcement-tile announcement=announcement destroyAnnouncement="destroyAnnouncement"}}
-    {{/each}}
-</ul>
+        {{/each}}
+    </ul>
 
-{{new-announcement saveAnnouncement2="saveAnnouncement3"}}
+    {{new-announcement saveAnnouncement2="saveAnnouncement3"}}
 
-{{#link-to 'index'}}Home{{/link-to}}
-{{#link-to 'about'}}About{{/link-to}}
-{{#link-to 'contact'}}Contact us{{/link-to}}
-{{#link-to 'announcements'}}Announcements{{/link-to}}
+    {{#link-to 'index'}}Home{{/link-to}}
+    {{#link-to 'about'}}About{{/link-to}}
+    {{#link-to 'contact'}}Contact us{{/link-to}}
+    {{#link-to 'announcements'}}Announcements{{/link-to}}
+</div>
